@@ -52,6 +52,12 @@
   <action id="EditorLineStartWithSelection">
     <keyboard-shortcut first-keystroke="shift ctrl a" />
   </action>
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
+  </action>
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl left" />
+  </action>
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="meta end" />
     <keyboard-shortcut first-keystroke="meta down" />
@@ -100,6 +106,7 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
     <keyboard-shortcut first-keystroke="ctrl meta up" />
   </action>
+  <action id="NextEditorTab" />
   <action id="NextOccurence" />
   <action id="NextProjectWindow" />
   <action id="NextTab">
@@ -111,6 +118,7 @@
     <keyboard-shortcut first-keystroke="f4" />
   </action>
   <action id="ParameterInfo" />
+  <action id="PreviousEditorTab" />
   <action id="PreviousOccurence" />
   <action id="PreviousProjectWindow" />
   <action id="PreviousTab">
@@ -175,5 +183,8 @@
   </action>
   <action id="XDebugger.JumpToSource">
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="learn.next.lesson">
+    <keyboard-shortcut first-keystroke="shift alt right" />
   </action>
 </keymap>
